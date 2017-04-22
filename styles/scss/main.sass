@@ -1,0 +1,58 @@
+// INCLUDES
+@import "variables"
+@import "mixins"
+
+*
+    margin: 0
+    padding: 0
+    font-family: Helvetica Neue, Helvetica, Open Sans, Arial, sans-serif
+    +box-sizing
+
+html, body
+    height: 100%
+
+// SIDEBAR NAVIGATION
+#sidenav
+    display: block
+    position: fixed
+    width: 200px
+    height: 100%
+    top: 0
+    left: -200px
+    color: #FFF
+    background-color: #333
+    +box-shadow
+    z-index: 9999
+    +transitions
+
+    &.visible
+        left: 0 
+        +transitions
+        
+nav ul
+    margin: 0
+    padding: 0
+
+        li
+            list-style: none
+
+            i
+                margin-right: 10px
+                color: $color-theme3
+            
+            a
+                display: block
+                padding: 10px
+                text-decoration: none
+                text-transform: uppercase
+                color: $color-theme2
+                +transitions
+            
+        &:hover i
+            color: $color-theme2
+            +transitions
+        
+        &:hover a
+            padding-left: 20px
+            background-color: $color-theme3
+            +transitions
