@@ -158,6 +158,10 @@ footer {
     .home-logo { margin-bottom: 35px; width: 110px; }
     .home-title { font-size: 1.5em; }
     .home-subtitle { font-size: 1em; }
+
+    #folioSec h2 {
+        letter-spacing: .2em;
+    }
 }
 @media screen and (max-width:  639px) {
     .section, .subsection { height: 100vh; padding: 20px 7px; }
