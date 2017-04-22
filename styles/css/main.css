@@ -64,14 +64,13 @@ nav ul li:hover a { padding-left: 20px; background: #B03; transition: all 0.3s e
 .withBG1 { background-image: url('../../img/JDR_Pattern_Rev_SML.jpg'); }
 
 /* CENTRALIZE */
-.centralize {
-    display: table;
-    height: 100%;
-    margin: 0 auto;
-    padding: 0;
+.center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
 }
-.centralize-content { display: table-cell; vertical-align: middle; }
 
 /* BANNER */
 .home-logo { margin-bottom: 20px; width: 130px; }
@@ -91,6 +90,8 @@ nav ul li:hover a { padding-left: 20px; background: #B03; transition: all 0.3s e
 .go-down i {
     position: absolute;
     bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 24px;
     font-weight: 300;
     color: #FFF;
@@ -165,11 +166,6 @@ footer {
 }
 @media screen and (max-width:  639px) {
     .section, .subsection { height: 100vh; padding: 20px 7px; }
-
-    #serviceSec h1 { margin-bottom: 15px; font-size: 1.5em; }
-    .service-icn { max-width: 65px; }
-    .service-title { margin: 5px 0; font-size: 1.2em; }
-    .service-desc { line-height: 1.2em; font-size: 0.8em; }
 }
 @media screen and (max-width: 767px) {
     .folio-item, .folio-item-full { width: 100%; }
