@@ -55,7 +55,6 @@ nav ul li:hover a { padding-left: 20px; background: #B03; transition: all 0.3s e
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 .section { height: 100%; }
 .subsection { height: 50%; }
