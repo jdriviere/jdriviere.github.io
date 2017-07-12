@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	'use strict';
+	
 	// Activates functions
 	sideNav (); // Activates Side Navigation Menu
 	setBindings (); // Activates Scroll Page
@@ -18,7 +20,7 @@ function sideNav() {
 } // End of SideNav
 
 function setBindings() {
-	$("#sidenav a").click(function(e) {
+	$("nav ul li a:not(.link-project)").click(function(e) {
 		e.preventDefault ();
 		var sectionID = e.currentTarget.id + "Sec";
 
