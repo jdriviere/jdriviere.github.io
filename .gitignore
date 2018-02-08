@@ -1,4 +1,7 @@
-fonts/*
+.vscode/
+.sass-cache/
 styles/css/main.css
+styles/css/*.map
 styles/scss/*
 js/scripts/scripts.js
+**/*.pug
