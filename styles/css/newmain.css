@@ -1,0 +1,116 @@
+.superhero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  padding: 15rem 0;
+}
+@media screen and (min-width: 640px) {
+  .superhero {
+    height: 100vh;
+    padding: 0;
+  }
+}
+
+.about {
+  padding: 5em 1em;
+  background: #F4F4F8;
+}
+.about__title {
+  font-size: 2.4em;
+}
+.line {
+  display: block;
+  width: 25%;
+  height: 5px;
+  margin-bottom: 2em;
+  background: rgba(0, 0, 0, 0.7);
+}
+.about__paragraph {
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+@media only screen and (min-width: 640px) {
+  .about {
+    padding: 5em;
+  }
+  .line {
+    width: 15%;
+  }
+}
+
+.experience, .skills {
+  padding: 5em 1em;
+}
+.experience__block {
+  margin-bottom: 2em;
+}
+.experience__block__title {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.experience__block__timeline {
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-style: italic;
+}
+@media only screen and (min-width: 640px) {
+  .experience, .skills {
+    padding: 5em;
+  }
+}
+
+.portfolio {
+  padding: 5em 1em;
+  /* background: #F4F4F8; */
+}
+.portfolio__title {
+  font-size: 2.4em;
+}
+.portfolio__line {
+  display: block;
+  width: 15%;
+  height: 5px;
+  margin: 0 auto 2em;
+  background: rgba(0, 0, 0, 0.7);
+}
+.portfolio__paragraph {
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+@media only screen and (min-width: 640px) {
+  .portfolio {
+    padding: 5em;
+  }
+  .portfolio__line {
+    width: 5%;
+  }
+}
+
+.signature {
+  margin-top: 3em;
+}
+
+.card__image, .card img {
+  width: 100%;
+}
+
+.icons a {
+  margin-left: 1.5rem;
+  font-size: 2rem;
+}
+.icons a:first-child {
+  margin-left: 0;
+}
+
+.place-first-mobile { order: -1 }
+@media screen and (min-width: 768px) {
+  .place-first-mobile {
+    order: 0
+  }
+}
+
+/*# sourceMappingURL=newmain.css.map */
