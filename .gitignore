@@ -3,16 +3,10 @@
 .sass-cache/
 includes/
 styles/scss/
+unused/
 
 # FILES
-img/Branding_CDM.jpg
-img/Flyer_CF_Ad.jpg
-img/Flyer_ID_Ad.jpg
-img/JDR_Logo_Rev.png
 img/JDR_Pattern_Rev_SML.jpg
-img/Logo_CF.jpg
-img/Logo_MHS.jpg
-img/Website_Mockup.jpg
 js/scripts/scripts.js
 styles/css/main.css
 styles/css/main.min.css
